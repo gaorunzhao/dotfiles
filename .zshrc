@@ -84,6 +84,9 @@ source $ZSH/oh-my-zsh.sh
 export HOMEBREW_API_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/api"
 export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles"
 
-for file in ~/.exports ~/.aliases ~/.functions; do
+config_files=(~/.exports ~/.aliases ~/.functions)
+
+for file in "${config_files[@]}"; do
   [[ -r "$file" ]] && source "$file"
 done
+
