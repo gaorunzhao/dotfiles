@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 
 # Install command-line tools using Homebrew.
+if ! hash brew 2> /dev/null; then
+  xcode-select --install
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)";
+fi;
 
 # Make sure we’re using the latest Homebrew.
 brew update
@@ -23,8 +27,8 @@ brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed --with-default-names
 # Install a modern version of Bash.
-brew install bash
-brew install bash-completion2
+# brew install bash
+# brew install bash-completion2
 
 # Switch to using brew-installed bash as default shell
 if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then
