@@ -17,7 +17,7 @@ function targz() {
 
 	size=$(
 		stat -f"%z" "${tmpFile}" 2> /dev/null; # macOS `stat`
-		stat -c"%s" "${tmpFile}" 2> /dev/null;  # GNU `stat`
+		stat -c"%s" "${tmpFile}" 2> /dev/null; # GNU `stat`
 	);
 
 	local cmd="";

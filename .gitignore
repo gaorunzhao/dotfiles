@@ -1,14 +1,26 @@
-# Compiled Python files
-*.pyc
-
-# Folder view configuration files
+# General
 .DS_Store
-Desktop.ini
+__MACOSX/
+.AppleDouble
+.LSOverride
+Icon[
+]
 
-# Thumbnail cache files
+# Thumbnails
 ._*
-Thumbs.db
 
-# Files that might appear on external disks
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
 .Spotlight-V100
+.TemporaryItems
 .Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk

@@ -1,7 +1,10 @@
-" Use the Solarized Dark theme
-set background=dark
-colorscheme solarized
-let g:solarized_termtrans=1
+" Use the Everforest Light soft theme
+packadd! everforest
+set background=light
+let g:everforest_background = 'soft'
+" For better performance
+let g:everforest_better_performance = 1
+colorscheme everforest
 
 " Make Vim more useful
 set nocompatible

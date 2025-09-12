@@ -4,8 +4,6 @@ set -e;
 
 cd "$(dirname "${${(%):-%x}:h}")";
 
-git pull origin main;
-
 function doIt() {
 
 	rsync --exclude ".git/" \
@@ -16,6 +14,10 @@ function doIt() {
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
 		-avh --no-perms . ~;
+	mkdir -p ~/.vim/pack/colors/opt;
+	if [ ! -d ~/.vim/pack/colors/opt/everforest ]; then
+		git clone --depth 1 https://github.com/sainnhe/everforest.git ~/.vim/pack/colors/opt/everforest;
+	fi
 	source ~/.zshrc;
 }
 

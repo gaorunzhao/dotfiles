@@ -20,7 +20,6 @@ git clone git@code.alipay.com:gaorunzhao.grz/dotfiles.git && cd dotfiles
 
 Equip your terminal with zsh and [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) framework:
 
-- Theme: [headline](https://github.com/Moarram/headline)
 - Plugins: [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting), [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions), [you-should-use](https://github.com/Moarram/you-should-use)
 
 ```bash
