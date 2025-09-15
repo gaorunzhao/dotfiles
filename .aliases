@@ -17,14 +17,10 @@ alias mkdir="mkdir -p"
 # Built-ins upgrades
 alias cat="bat --style=auto --color=always"
 # Eza: https://eza.rocks/
-# Display all clickable entries as a grid with icons
-alias ls="eza --no-user --hyperlink --icons=auto --group-directories-first --color-scale=age"
-# ...(incl. hidden files)
-alias lsa="ls -a"
-# Display a detailed clickable directory tree with a Git status
-alias lt="ls --tree --level=2 --long --header --git --git-ignore"
-# ...(incl. hidden files)
-alias lta="lt -a"
+alias ls='eza -lh --group-directories-first --icons --hyperlink'
+alias lsa='ls -a'
+alias lt='eza --tree --level=2 --long --icons --git'
+alias lta='lt -a'
 alias top="btop"
 # Safe delete: move to trash instead of permanent removal
 alias rm="trash"
