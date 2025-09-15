@@ -15,7 +15,7 @@ Prerequisites
 Clone the repository:
 
 ```bash
-git clone git@code.alipay.com:gaorunzhao.grz/dotfiles.git && cd dotfiles
+git clone https://github.com/gaorunzhao/dotfiles.git && cd dotfiles
 ```
 
 Equip your terminal with zsh and [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) framework:
@@ -37,6 +37,12 @@ Change your workflow:
 ```bash
 source bootstrap.sh
 ```
+
+## TODOs
+
+- [ ] Fix vimrc configuration
+- [ ] Add macrc configuration
+- [ ] Switch iTerm2 to use a different color scheme
 
 ## Acknowledgments
 
