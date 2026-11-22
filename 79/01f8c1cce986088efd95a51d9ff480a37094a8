@@ -1,0 +1,47 @@
+agent/skills/pull-requests/antcode.md
+  s_ca94d427377887::t_7a47e362dd8e3e 1-45
+agent/roles/implementer.md
+  s_ca94d427377887::t_7a47e362dd8e3e 1-43
+agent/skills/pull-requests/writing.md
+  s_ca94d427377887::t_7a47e362dd8e3e 1-48
+agent/roles/agent-selection.md
+  s_ca94d427377887::t_7a47e362dd8e3e 1-24
+agent/templates/delivery-report.md
+  s_ca94d427377887::t_7a47e362dd8e3e 1-29
+agent/skills/README.md
+  s_ca94d427377887::t_7a47e362dd8e3e 1-16
+agent/roles/reviewer.md
+  s_ca94d427377887::t_7a47e362dd8e3e 1-41
+README.md
+  s_ca94d427377887::t_0ba62826e18d71 41-44
+agent/roles/leader.md
+  s_ca94d427377887::t_7a47e362dd8e3e 1-47
+agent/skills/pull-requests/README.md
+  s_ca94d427377887::t_7a47e362dd8e3e 1-6
+bootstrap.sh
+  s_ca94d427377887::t_0ba62826e18d71 10-11
+.gitmodules
+  s_ca94d427377887::t_0ba62826e18d71 1-12
+agent/templates/feature-and-state-map.md
+  s_ca94d427377887::t_7a47e362dd8e3e 1-49
+agent/AGENTS.md
+  s_ca94d427377887::t_7a47e362dd8e3e 1-87
+agent/roles/legal.md
+  s_ca94d427377887::t_7a47e362dd8e3e 1-26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "7901f8c1cce986088efd95a51d9ff480a37094a8",
+  "prompts": {},
+  "sessions": {
+    "s_ca94d427377887": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a133fc-f682-7a92-8647-7b2bf478fd75",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "Gao Runzhao <gaorunzhao.grz@antgroup.com>"
+    }
+  }
+}
