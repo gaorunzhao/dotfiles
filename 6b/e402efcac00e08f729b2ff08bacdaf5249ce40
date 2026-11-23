@@ -1,0 +1,14 @@
+agent/templates/feature-and-state-map.md
+  h_70f14b1abefcc2 5-17,57
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "6be402efcac00e08f729b2ff08bacdaf5249ce40",
+  "prompts": {},
+  "humans": {
+    "h_70f14b1abefcc2": {
+      "author": "Gao Runzhao <gaorunzhao.grz@antgroup.com>"
+    }
+  }
+}
