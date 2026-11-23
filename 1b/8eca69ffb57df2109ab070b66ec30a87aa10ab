@@ -1,0 +1,30 @@
+agent/templates/delivery-report.md
+  s_dafc8186a61a01::t_fb8fbaf8020792 5
+  s_dafc8186a61a01::t_e9591be0df6466 6,15,23,31
+agent/roles/leader.md
+  s_dafc8186a61a01::t_e9591be0df6466 12,44
+  s_dafc8186a61a01::t_330274591debb6 11,13,16
+agent/roles/implementer.md
+  s_dafc8186a61a01::t_e9591be0df6466 11,42
+agent/roles/reviewer.md
+  s_dafc8186a61a01::t_e9591be0df6466 12,21
+agent/templates/feature-and-state-map.md
+  s_dafc8186a61a01::t_330274591debb6 27,53
+  s_dafc8186a61a01::t_e9591be0df6466 3,7,9-10,12,14,16,22-24,60
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "1b8eca69ffb57df2109ab070b66ec30a87aa10ab",
+  "prompts": {},
+  "sessions": {
+    "s_dafc8186a61a01": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a206d9-ee03-7d21-8f7a-a114135d5847",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "Gao Runzhao <gaorunzhao.grz@antgroup.com>"
+    }
+  }
+}
