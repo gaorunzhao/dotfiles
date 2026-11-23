@@ -1,0 +1,19 @@
+agent/roles/agent-selection.md
+  s_dafc8186a61a01::t_e9591be0df6466 11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "e663e8cbb0492976a5f1c72572f94a4c74f5724b",
+  "prompts": {},
+  "sessions": {
+    "s_dafc8186a61a01": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a206d9-ee03-7d21-8f7a-a114135d5847",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "Gao Runzhao <gaorunzhao.grz@antgroup.com>"
+    }
+  }
+}
