@@ -1,0 +1,19 @@
+agent/templates/feature-and-state-map.md
+  s_dafc8186a61a01::t_61c0e34d263790 7,9,12,27,53,63-64
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "3feaaa212d338274466d53808016ee1c85758314",
+  "prompts": {},
+  "sessions": {
+    "s_dafc8186a61a01": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a206d9-ee03-7d21-8f7a-a114135d5847",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "Gao Runzhao <gaorunzhao.grz@antgroup.com>"
+    }
+  }
+}
