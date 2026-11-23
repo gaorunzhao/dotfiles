@@ -1,0 +1,21 @@
+agent/roles/legal.md
+  s_ca94d427377887::t_87c4a9df52811b 10
+agent/templates/feature-and-state-map.md
+  s_ca94d427377887::t_cc385987aac6bb 7-14,16,18,20-22,24,26-28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "4bfd0e19132d92e2eb674f4029aa47dcf19a52f2",
+  "prompts": {},
+  "sessions": {
+    "s_ca94d427377887": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a133fc-f682-7a92-8647-7b2bf478fd75",
+        "model": "gpt-6.2-astra"
+      },
+      "human_author": "Gao Runzhao <gaorunzhao.grz@antgroup.com>"
+    }
+  }
+}
