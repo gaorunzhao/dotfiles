@@ -1,0 +1,14 @@
+agent/templates/delivery-report.md
+  h_70f14b1abefcc2 3,31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "4c744570dad6c571f17e239fbf033e28bf8ec034",
+  "prompts": {},
+  "humans": {
+    "h_70f14b1abefcc2": {
+      "author": "Gao Runzhao <gaorunzhao.grz@antgroup.com>"
+    }
+  }
+}
