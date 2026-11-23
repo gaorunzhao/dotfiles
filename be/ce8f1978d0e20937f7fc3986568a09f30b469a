@@ -1,0 +1,19 @@
+agent/roles/legal.md
+  s_ca94d427377887::t_b1d622e890d8bd 9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "bece8f1978d0e20937f7fc3986568a09f30b469a",
+  "prompts": {},
+  "sessions": {
+    "s_ca94d427377887": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a133fc-f682-7a92-8647-7b2bf478fd75",
+        "model": "gpt-6.2-astra"
+      },
+      "human_author": "Gao Runzhao <gaorunzhao.grz@antgroup.com>"
+    }
+  }
+}
