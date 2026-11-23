@@ -1,0 +1,18 @@
+agent/roles/implementer.md
+  h_70f14b1abefcc2 43
+agent/roles/leader.md
+  h_70f14b1abefcc2 11,34,44
+agent/roles/reviewer.md
+  h_70f14b1abefcc2 21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "e7ad02edfdfe352618147350eb5de3f880004091",
+  "prompts": {},
+  "humans": {
+    "h_70f14b1abefcc2": {
+      "author": "Gao Runzhao <gaorunzhao.grz@antgroup.com>"
+    }
+  }
+}
